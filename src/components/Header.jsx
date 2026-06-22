@@ -1,0 +1,17 @@
+import styles from './Header.module.css';
+
+export default function Header() {
+  return (
+    <header className={styles.header}>
+      <div className={styles.inner}>
+        <div className={styles.brand}>
+          <span className={styles.logo}>🍳</span>
+          <div>
+            <h1 className={styles.title}>Recipe Finder</h1>
+            <p className={styles.sub}>Powered by MealDB API</p>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
